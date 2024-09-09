@@ -3,4 +3,4 @@ from bonsai.bim.ifc import IfcStore
 file = IfcStore.get_file()
 
 things = file.by_type('IfcColumn')
-print(len(things))
+print("Number fo columns =",len(things))
