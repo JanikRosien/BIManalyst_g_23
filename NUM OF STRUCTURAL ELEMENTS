@@ -1,0 +1,18 @@
+from bonsai.bim.ifc import IfcStore
+
+### Function to store file in a variable called 'file' ###
+file = IfcStore.get_file()
+
+### STRUCTURAL ELEMENT DEFINITIONS ###
+
+beams = file.by_type('IfcBeam')
+walls = file.by_type('IfcWall')
+columns = file.by_type('IfcColumn')
+slabs = file.by_type('IfcSlab')
+
+### COUNT STRUCTURAL ELEMENTS ###
+
+print('Number of beams = {length}'.format(length=len(beams)))
+print('Number of walls = {length}'.format(length=len(walls)))
+print('Number of columns = {length}'.format(length=len(columns)))
+print('Number of slabs = {length}'.format(length=len(slabs))) 
