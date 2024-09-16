@@ -1,6 +1,7 @@
 import ifcopenshell
 import ifcopenshell.geom
 
+def checkRule(model):
 # Insert the path to the IFC file (make sure it's correct)
 file_path = 'import ifcopenshell
 import ifcopenshell.geom
@@ -16,8 +17,6 @@ walls = ifc_file.by_type("IfcWall")
 
 # Loop through the found walls and read their dimensions
 for wall in walls:
-    # Print the wall's ID
-    print(f"Wall ID: {wall.GlobalId}")
     
     # Get the wall's geometry
     shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), wall)
@@ -34,4 +33,6 @@ for wall in walls:
     height = max_z - min_z
     
     # Print the wall's height
-    print(f"Height of Wall {wall.GlobalId}: {height} meters")'
+    result = f"Height of Wall {wall.GlobalId}: {height} meters"
+
+return result
