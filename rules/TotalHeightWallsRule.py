@@ -6,12 +6,6 @@ def checkRule(model):
 file_path = 'import ifcopenshell
 import ifcopenshell.geom
 
-# Insert the path to the IFC file (make sure it's correct)
-file_path = 'C:\\Users\\leviz\\Documents\\università\\Erasmus +\\Courses\\BIM\\CES_BLD_24_06_STR.ifc'
-
-# Open the IFC file
-ifc_file = ifcopenshell.open(file_path)
-
 # Find all elements of type IfcWall
 walls = ifc_file.by_type("IfcWall")
 
