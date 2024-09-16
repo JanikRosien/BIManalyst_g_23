@@ -28,5 +28,4 @@ for wall in walls:
     
     # Print the wall's height
     result = f"Height of Wall {wall.GlobalId}: {height} meters"
-
-return result
+    return result
