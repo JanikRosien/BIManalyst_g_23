@@ -6,4 +6,4 @@ def checkRule(model):
     result = f"Doors: {len(doors)}"
 
     return result
-
+#check
