@@ -51,9 +51,10 @@ A: Analyse
 
 Q: Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one
 
-A: - Cost estimation
-   - Site Utilization Planning
-   - Sustainability Analysis
+A: - 02: Cost estimation
+   - 11: Sustainability Analysis
+   - 13: Design Coordination
+   - 14: Site Utilization Planning
 
 Q: Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it.mYou can use this online tool to create a BPMN file
 
