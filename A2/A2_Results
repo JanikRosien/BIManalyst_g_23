@@ -60,5 +60,6 @@ A: - 02: Cost estimation
 Q: Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG,
    please also save the BPMN with it.You can use this online tool to create a BPMN file
 
-A: ![Hugh Fulton](https://github.com/JanikRosien/BIManalyst_g_23/blob/main/A2/241007%20totalcolumns.svg)
+A: 
+![Hugh Fulton](https://github.com/JanikRosien/BIManalyst_g_23/blob/main/A2/241007%20totalcolumns.svg)
 
