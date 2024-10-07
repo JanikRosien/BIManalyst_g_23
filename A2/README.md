@@ -66,12 +66,14 @@ Q: Produce a BPMN drawing for your chosen use case. link to this so we can see i
    please also save the BPMN with it.You can use this online tool to create a BPMN file
 
 A: 
+![Use Case - Cost Estimation](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A2/IMG/USE_CASE_OVERALL.svg)
 
 # A2d: Scope the use case
 
 Q: From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram.
 
 A:
+![Use Case - Tool Integration](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A2/IMG/USE_CASE_HIGHLIGHTED.svg)
     
 # A2e: Tool Idea
 
