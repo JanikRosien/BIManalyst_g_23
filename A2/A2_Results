@@ -1,9 +1,9 @@
-A2a:
+# A2a:
 Q: How much do you agree wiht the following statement: I am confident coding in Python
 
 A: Between 0 and 1 - It's the first time the three of us code in Python
 
-A2b:
+# A2b:
 Q: Select which building(s) to focus on for you focus area
 
 A: Building #2406
@@ -21,7 +21,7 @@ Q: Justify your selection of your claim
 
 A: The utility of this claim is to know during the construction part how much concrete is needed, to save time and money.
 
-A2c:
+# A2c:
 Q: How you would check this claim?
 
 A: 1 - Repeat for every floor: 
