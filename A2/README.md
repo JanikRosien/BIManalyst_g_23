@@ -17,11 +17,12 @@ A: Volume of concrete used in columns for every floor
 Q: Write a short description of the claim you wish to check. It could be the same as the previous assignment,
    or if this is too simple you could identify a new claim from the report to check in this assignment
 
-A: We want to create a table with the floors as row and volume as column
+A: The report is giving dimensions for the concrete columns, we want to chack these dimensions by calculating the volume of the columns on each floor.
 
 Q: Justify your selection of your claim
 
-A: The utility of this claim is to know during the construction part how much concrete is needed, to save time and money.
+A: By checking this claim, we want to prevent the existence of wrong information in the report. This way unnecessary costs can be reduces.
+It is also usefull to know how much concrete is needed for the columns on each floor, because you can use these informatino improve the workflow and safe time.
 
 # A2c: Use Case
 
@@ -39,7 +40,7 @@ A: 1 - Repeat for every floor:
 
 Q: When would this claim need to be checked?
 
-A: Before the construction of each floor
+A: At the beginning of and before the construction of each floor, to take any changes into account.
 
 Q: What information does this claim rely on?
 
@@ -55,7 +56,7 @@ A: Analyse
 
 Q: Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one
 
-A: - 02: Cost estimation
+A: - **02: Cost estimation**
    - 11: Sustainability Analysis
    - 13: Design Coordination
    - 14: Site Utilization Planning
@@ -75,11 +76,22 @@ A:
 
 Q: Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 
-A:
+A: Our idea is it to create a tool, which helps the owner, by reducing unnecessary costs due to waste of material and reducing the construction.
+But also the executing company, because the gained information can be used to structure the workflow, use the constructino area in a more efficient way and therefore safe time in the long run.
+The tool gatheres the dimensions of the columns used in the model and compares these to the given information from the report. The information are documentated in a table.
 
 Q: What is the business and societal value of your tool?
 
-A:
+A: business value:
+   -   reduce material costs
+   -   structure the workflow
+   -   reduce total emissions
+   -   reduce construction time
+     
+   societal value:
+   -   shorten the time of noise pollution
+   -   reduce total emissions
+   -   construction finished earlier -> earlier accessible for society
 
 Q: Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the disagram and embed the SVG in the Markdown as an            image.
 
