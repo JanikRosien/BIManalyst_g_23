@@ -146,4 +146,4 @@ A: We will need to learn how to query the IFC model using `ifcopenshell` and per
 
 **Q: What software license will you choose for your project?**
 
-A: An appropriate license would be the MIT License or GNU GPL, as these are common for open-source projects and provide flexibility in usage and distribution while maintaining authorship and contribution integrity.
+A: An appropriate license would be the MIT License or GNU GPL, as these are common for open-source projects and provide flexibility in usage and distribution while maintaining authorship and contribution integrity. We will likely choose GPL-3.0 as it is what the course is based in.
