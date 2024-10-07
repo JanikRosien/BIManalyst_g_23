@@ -12,7 +12,8 @@ Q: Identify a ‘claim’ / issue / fact to check from one of those reports.
 
 A: Volume of concrete used in columns for every floor
 
-Q: Write a short description of the claim you wish to check. It could be the same as the previous assignment, or if this is too simple you could identify a new claim from the report to check in this assignment
+Q: Write a short description of the claim you wish to check. It could be the same as the previous assignment,
+   or if this is too simple you could identify a new claim from the report to check in this assignment
 
 A: We want to create a table with the floors as row and volume as column
 
@@ -56,6 +57,7 @@ A: - 02: Cost estimation
    - 13: Design Coordination
    - 14: Site Utilization Planning
 
-Q: Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it.mYou can use this online tool to create a BPMN file
+Q: Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG,
+   please also save the BPMN with it.You can use this online tool to create a BPMN file
 
 A: 
