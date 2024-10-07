@@ -56,7 +56,7 @@ A: Analyse
 
 Q: Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one
 
-A: - **02: Cost estimation**
+A: -**02: Cost estimation**
    - 11: Sustainability Analysis
    - 13: Design Coordination
    - 14: Site Utilization Planning
