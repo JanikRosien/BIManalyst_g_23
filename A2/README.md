@@ -84,7 +84,7 @@ The tool gatheres the dimensions of the columns used in the model and compares t
 Q: What is the business and societal value of your tool?
 
 A: business value:
-   -   reduce material costs
+   -   reduce material quantity and costs
    -   structure the workflow
    -   reduce total emissions
    -   reduce construction time
@@ -100,15 +100,25 @@ A:
 ![SVG tool](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A2/IMG/241007%20totalcolumns.svg)
 
 # A2f: Information Requirements
-Identify what information you need to extract from the model
+
+Q: Identify what information you need to extract from the model
+
+A: 
+-   identify the floor
+-   identify concrete structures (columns)
+-   location of columns (assignment to floor)
+-   dimensions of columns (height, cross sectoin)
+-   volume of columns (brutto volume)
+-   information about the reinforcement in the columns
+-   concrete volume of columns (netto volume)
 
 Q: Where is this in IFC?
 
-A:
+A: 
 
 Q: Is it in the model?
 
-A:
+A: 
 
 Q: Do you know how to get it in ifcOpenShell?
 
