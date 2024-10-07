@@ -64,7 +64,6 @@ Q: Produce a BPMN drawing for your chosen use case. link to this so we can see i
    please also save the BPMN with it.You can use this online tool to create a BPMN file
 
 A: 
-![Hugh Fulton](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A2/IMG/241007%20totalcolumns.svg)
 
 # A2d: Scope the use case
 
@@ -85,6 +84,7 @@ A:
 Q: Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the disagram and embed the SVG in the Markdown as an            image.
 
 A:
+![SVG tool](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A2/IMG/241007%20totalcolumns.svg)
 
 # A2f: Information Requirements
 Identify what information you need to extract from the model
