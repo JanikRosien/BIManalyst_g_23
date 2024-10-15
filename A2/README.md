@@ -130,7 +130,7 @@ A: In the IFC model, this data is typically located in `IfcBuildingElement` or `
 
 **Q: Is it in the model?**
 
-A: Yes, the data should be available in the IFC file.
+A: Yes, all the data, except information about the reinforcement, should be available in the IFC file.
 
 **Q: Do you know how to get it in ifcOpenShell?**
 
