@@ -18,4 +18,4 @@ A:
 number of columns per floor\
 label all columns per floor\
 attribute volume of concrete to each labelled column\
-present in a succinct way\
+present in a succinct way
