@@ -15,7 +15,7 @@ A:
 
 ### things to add:
 
-number of columns per floor/
-label all columns per floor/
-attribute volume of concrete to each labelled column/
-present in a succinct way/
+number of columns per floor\
+label all columns per floor\
+attribute volume of concrete to each labelled column\
+present in a succinct way\
