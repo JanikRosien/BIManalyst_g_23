@@ -11,3 +11,10 @@ A: The tool analize every columns' height and cross section area, then calculate
 
 Q: Instructions to run the tool.
 A: 
+
+
+### things to add:
+number of columns per floor
+label all columns per floor
+attribute volume of concrete to each labelled column
+present in a succinct way
