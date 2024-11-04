@@ -10,16 +10,13 @@ A: In the construction site
 
 Q: Description of the tool
 
-A: The tool analize every columns' height and cross section area, then calculate the volume of concrete needed and sum the quantities for each floor, printing the results in a table.
+A: The tool analizes every columns' height and cross section area, then calculates the volume of concrete needed and sums the quantities for each floor, printing the results in a table.
 
 Q: Instructions to run the tool.
 
 A: 
-
-
-### things to add:
-
-number of columns per floor\
-label all columns per floor\
-attribute volume of concrete to each labelled column\
-present in a succinct way
+1. safe an ifc.file somewhere
+2. put the ifc.file path inside the code (follow the instructions inside the code)
+3. run the code
+4. cross-check values, if necessary
+5. use information to solve the problem
