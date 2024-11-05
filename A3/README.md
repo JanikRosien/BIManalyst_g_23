@@ -2,21 +2,22 @@
 
 Q: State the problem / claim that your tool is solving.
 
-A: Calculate the volume of concrete used in columns for every floor in order to prevent incorrect information in the report, reducing unnecessary costs and optimizing the building time.
+A: The goal of our tool is to reduce unnecessary costs and construction delays, by calculating the volume of concrete, which is used for the columns of the building and gathering these information in tabels. This helps planing the construction process, as needed materials can be ordered in a more efficient and sustainabale way, preventing space- and material-waste on the construction site. Additionally the construction workers can be used more sensible and efficient makting the overall construction process quicker.
 
 Q: State where you found that problem.
 
-A: In the construction site
+A: The problem occours in the planing phase of the building, on the construction site and when ordering materials for the construction, in this case concrete.
 
 Q: Description of the tool
 
-A: The tool analizes every columns' height and cross section area, then calculates the volume of concrete needed and sums the quantities for each floor, printing the results in a table.
+A: The tool takes the data for the height and cross section of the columns from the ifc-file and calculates the concrete volume for each individual column. These information is then collected and sorted in Tables, which make it possible to search for the volume of each individual column, all columns of one floor, and all columns of the building.
 
 Q: Instructions to run the tool.
 
 A: 
-1. safe an ifc.file somewhere
+1. safe and ifc.file somewhere
 2. put the ifc.file path inside the code (follow the instructions inside the code)
 3. run the code
-4. cross-check values, if necessary
-5. use information to solve the problem
+4. get information from the tool
+5. cross-check values, if necessary
+6. use information to solve the problem
