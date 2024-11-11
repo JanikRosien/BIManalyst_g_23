@@ -26,7 +26,7 @@ Get geometric data for the objects from the IFC-File.
                 min_z = min(vertices[i + 2] for i in range(0, len(vertices), 3))
                 max_z = max(vertices[i + 2] for i in range(0, len(vertices), 3))
 
-![Use Case - Cost Estimation](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A4/pictures/IMG1.png)
+![IMG 1](https://raw.githubusercontent.com/JanikRosien/BIManalyst_g_23/refs/heads/main/A4/pictures/IMG1.png)
 ## Step 3:
 
 calculate the volume for the object with the geometric data.
