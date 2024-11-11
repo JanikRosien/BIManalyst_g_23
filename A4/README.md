@@ -16,6 +16,7 @@ Include line "import ifcopenshell.geom" in your code
 
 Get geometric data for the objects from the IFC-File.
 
+def calculate_volume(element):
             shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), element)
             vertices = shape.geometry.verts
             if len(vertices) >= 24:  # Ensure sufficient vertices are available
