@@ -15,9 +15,9 @@ A: The tool takes the data for the height and cross section of the columns from 
 Q: Instructions to run the tool.
 
 A: 
-1. safe and ifc.file somewhere
-2. put the ifc.file path inside the code (follow the instructions inside the code)
+1. save an ifc.file to your harddrive
+2. input the ifc filepath in the relevant code line (follow the instructions inside the code)
 3. run the code
-4. get information from the tool
+4. receive information from the tool
 5. cross-check values, if necessary
-6. use information to solve the problem
+6. use information to solve the problem e.g. costing, planning
