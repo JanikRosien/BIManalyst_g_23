@@ -1,6 +1,6 @@
-## Assignment 3: Tool
+# Assignment 3: Tool
 
-# About the Tool:
+## About the Tool:
 
 Q: State the problem / claim that your tool is solving.
 
@@ -24,7 +24,7 @@ A:
 5. cross-check values, if necessary
 6. use information to solve the problem e.g. costing, planning
 
-# Advanced Building Design:
+## Advanced Building Design:
 
 Q: What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
 
