@@ -1,8 +1,12 @@
 # Assignment 4: Teach
 
-# Tutorial:
+## Tutorial - get the volume of an object in an IFC-File:
 
-How to get the volumne of an object with a "simple" geometry, which doesn't have a volume attribute included in the IFC-File.
+Problem: The IFC-File does not include the volume attribute for the object.
+
+This tutoial teaches a way to calculate the volumne of an object with a "simple" geometry, which doesn't have a volume attribute included in the IFC-File.
+
+## Instructions:
 
 ## Step 1:
 
@@ -10,10 +14,3 @@ How to get the volumne of an object with a "simple" geometry, which doesn't have
 
 ## Step 3:
 
-
-
-Brainstorm:
-1. How we create the results' table (showing results in the proper way)
-2. How to calculate volumes without the exact attribute
-
-How to make the tutorial
