@@ -28,16 +28,16 @@ A:
 
 Q: What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
 
-A: 
+A: stage B (design) and C (build)
 
 Q: Which subjects might use it?
 
-A: Advanced Building Design, Building Information Modelling, 
+A: structural design, economic and environmental evaluation, construction management 
 
 Q: What information is required in the model for your tool to work?
 
 A:
 1. globally unique identifier (GUID)
-2. Location of Columns (Floor)
-3. Geometry of Columns
+2. location of columns (Floor)
+3. geometry of columns
    
