@@ -1,5 +1,7 @@
 ## Assignment 3: Tool
 
+# About the Tool:
+
 Q: State the problem / claim that your tool is solving.
 
 A: The goal of our tool is to reduce unnecessary costs and construction delays, by calculating the volume of concrete, which is used for the columns of the building and gathering these information in tabels. This helps planing the construction process, as needed materials can be ordered in a more efficient and sustainabale way, preventing space- and material-waste on the construction site. Additionally the construction workers can be used more sensible and efficient makting the overall construction process quicker.
@@ -21,3 +23,21 @@ A:
 4. receive information from the tool
 5. cross-check values, if necessary
 6. use information to solve the problem e.g. costing, planning
+
+# Advanced Building Design:
+
+Q: What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+
+A: 
+
+Q: Which subjects might use it?
+
+A: Advanced Building Design, Building Information Modelling, 
+
+Q: What information is required in the model for your tool to work?
+
+A:
+1. globally unique identifier (GUID)
+2. Location of Columns (Floor)
+3. Geometry of Columns
+   
