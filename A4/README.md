@@ -33,7 +33,9 @@ Get geometric data for the objects from the IFC-File.
 calculate the volume for the object with the geometric data.
 
 Example for an parallelepiped:
+
 return (max_x - min_x) * (max_y - min_y) * (max_z - min_z)
 
 Example for an cylinder:
+
 return (max_x - min_x) ** 2 * PI / 4 * (max_z - min_z)
