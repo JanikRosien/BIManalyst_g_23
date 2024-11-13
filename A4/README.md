@@ -16,7 +16,7 @@ Include line "import ifcopenshell.geom" in your code
 
 Get geometric data for the objects from the IFC-File.
 
-def calculate_volume(element):
+            def calculate_volume(element):
 
             shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), element)
             vertices = shape.geometry.verts
@@ -43,31 +43,31 @@ Example for an cylinder:
 return (max_x - min_x) ** 2 * PI / 4 * (max_z - min_z)
 
 ## Example for calculating column volumes:
+            
+            import ifcopenshell
+            import ifcopenshell.geom
 
-import ifcopenshell
-import ifcopenshell.geom
+            # Load the IFC file
+            ifc_file = ifcopenshell.open("path_to_your_ifc_file.ifc")
 
-# Load the IFC file
-ifc_file = ifcopenshell.open("path_to_your_ifc_file.ifc")
+            # Get all IfcColumn elements from the IFC file
+            columns = ifc_file.by_type("IfcColumn")
 
-# Get all IfcColumn elements from the IFC file
-columns = ifc_file.by_type("IfcColumn")
+            # Function to calculate volume for an element
+            def calculate_volume(element):
+                shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), element)
+                vertices = shape.geometry.verts
+                        if len(vertices) >= 24:  # Ensure sufficient vertices
+                    min_x = min(vertices[i] for i in range(0, len(vertices), 3))
+                    max_x = max(vertices[i] for i in range(0, len(vertices), 3))
+                    min_y = min(vertices[i + 1] for i in range(0, len(vertices), 3))
+                    max_y = max(vertices[i + 1] for i in range(0, len(vertices), 3))
+                    min_z = min(vertices[i + 2] for i in range(0, len(vertices), 3))
+                    max_z = max(vertices[i + 2] for i in range(0, len(vertices), 3))
+                    return (max_x - min_x) * (max_y - min_y) * (max_z - min_z)
+                return 0
 
-# Function to calculate volume for an element
-def calculate_volume(element):
-    shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), element)
-    vertices = shape.geometry.verts
-    if len(vertices) >= 24:  # Ensure sufficient vertices
-        min_x = min(vertices[i] for i in range(0, len(vertices), 3))
-        max_x = max(vertices[i] for i in range(0, len(vertices), 3))
-        min_y = min(vertices[i + 1] for i in range(0, len(vertices), 3))
-        max_y = max(vertices[i + 1] for i in range(0, len(vertices), 3))
-        min_z = min(vertices[i + 2] for i in range(0, len(vertices), 3))
-        max_z = max(vertices[i + 2] for i in range(0, len(vertices), 3))
-        return (max_x - min_x) * (max_y - min_y) * (max_z - min_z)
-    return 0
-
-# Calculate and print volume for each IfcColumn
-for column in columns:
-    volume = calculate_volume(column)
-    print(f"Column ID: {column.GlobalId}, Volume: {volume}")
+            # Calculate and print volume for each IfcColumn
+            for column in columns:
+                volume = calculate_volume(column)
+                print(f"Column ID: {column.GlobalId}, Volume: {volume}")
