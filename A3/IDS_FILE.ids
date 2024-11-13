@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd">
+    <ids:info>
+        <ids:title>Column Presence Check</ids:title>
+        <ids:description>Check for presence of IfcColumn elements</ids:description>
+    </ids:info>
+    <ids:specifications>
+        <ids:specification ifcVersion="IFC2X3" name="ColumnPresenceCheck">
+            <ids:applicability minOccurs="1" maxOccurs="unbounded">
+                <ids:entity>
+                    <ids:name>IFCCOLUMN</ids:name>
+                </ids:entity>
+            </ids:applicability>
+        </ids:specification>
+    </ids:specifications>
+</ids:ids>
