@@ -1,9 +1,9 @@
 # Assignment 4: Teach
 
 ## Summary
-# Volume Calculation for Objects in an IFC-File
+## Volume Calculation for Objects in an IFC-File
 
-When looking for the volume of an object, we stumbled uppon the issue, that some objects don't have a volume attribute in the IFC-File. So we decided to calculate the volume with a simple code. In the first step, the code is getting the dimensions of the objects in the x, y and z direction, out of the model. After that, the volume is calculated, this is done, by using the correct volume-fomula, depending on the shape of the object. 
+When looking for the volume of an object, we stumbled uppon the issue, that some objects don't have a volume attribute in the IFC-File. So we decided to calculate the volume with a simple code. In the first step, the code is getting the dimensions of the objects in the x, y and z direction. After that, the volume is calculated, this is done, by using the correct volume-fomula, depending on the shape of the object. 
 
 ## Tutorial - get the volume of an object in an IFC-File:
 
