@@ -2,7 +2,7 @@ import ifcopenshell
 import ifcopenshell.geom
 
 # Specify the path to IFC file
-file_path = r'C:\Users\hughf\OneDrive\Documents\RMIT UNI\2024 Semester 2\Advanced BIM\CES_BLD_IFC_FILES\CES_BLD_24_06_STR.ifc'
+file_path = r'PATH_TO_YOUR_IFC_FILE.IFC'
 
 # Open the IFC file
 ifc_file = ifcopenshell.open(file_path)
