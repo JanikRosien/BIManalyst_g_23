@@ -1,3 +1,22 @@
+"""
+This script processes an IFC (Industry Foundation Classes) file to calculate and display the concrete volumes
+and column counts for each floor of a building. It is useful for analyzing structural components in 3D models
+of buildings, typically created in BIM (Building Information Modeling) software.
+
+Key Features:
+1. Reads an IFC file to extract information about floors (IfcBuildingStorey) and columns (IfcColumn).
+2. Calculates the total volume of the elements for each floor by summing up the volumes of its elements (in this example columns).
+3. Handles cases where volume data is not directly available by estimating it using geometric data.
+
+How to Use:
+1. Replace `PATH_TO_YOUR_IFC_FILE.IFC` with the path to the IFC file on your device.
+2. Run the script.
+3. The script will output detailed information about the number of columns, their volumes, and the total volume
+   of columns for each floor, as well as the total for the entire building.
+
+Note: The script uses the `ifcopenshell` library, so ensure it is installed in your Python environment.
+"""
+
 import ifcopenshell
 import ifcopenshell.geom
 
@@ -82,5 +101,5 @@ for floor_name, floor_data in concrete_volumes["Floors"].items():
 
 # Print total volume across all floors
 print(f"\n{'=' * 50}")
-print(f"Total Concrete Volume for All Floors: {total_volume:.2f} m³")
+print(f"Total Column Volume for All Floors: {total_volume:.2f} m³")
 print(f"{'=' * 50}")
