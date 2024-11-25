@@ -20,7 +20,7 @@ Note: The script uses the `ifcopenshell` library, so ensure it is installed in y
 import ifcopenshell
 import ifcopenshell.geom
 
-# Specify the path to IFC file
+# Specify the path to IFC file (This requires user input for the tool to execute)
 file_path = r'PATH_TO_YOUR_IFC_FILE.IFC'
 
 # Open the IFC file
@@ -44,7 +44,8 @@ def calculate_volume(element):
                 max_z = max(vertices[i + 2] for i in range(0, len(vertices), 3))
                 
                 # Calculate the approximate bounding box volume
-                return (max_x - min_x) * (max_y - min_y) * (max_z - min_z)
+                return (max_x - min_x) * (max_y - min_y) * (max_z - min_z) # This formula can be altered for other shapes e.g. cylinders
+               
         except Exception as e:
             print(f"Volume calculation failed for element {element.GlobalId} with error: {e}")
             return 0  # Return 0 if the shape creation or calculation fails
