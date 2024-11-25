@@ -12,7 +12,7 @@ A: The problem occours in the planing phase of the building, on the construction
 
 Q: Description of the tool
 
-A: The tool takes the data for the height and cross section of the columns from the ifc-file and calculates the concrete volume for each individual column. These information is then collected and sorted in Tables, which make it possible to search for the volume of each individual column, all columns of one floor, and all columns of the building.
+A: The tool gets the dimensions of the columns in x-, y- and z-direction from the Ifc-file and calculates the concrete volume for each individual column. This information is then collected and sorted in Tables, which make it possible to search for the volume of each individual column, all columns of one floor, and all columns of the building.
 
 Q: Instructions to run the tool.
 
