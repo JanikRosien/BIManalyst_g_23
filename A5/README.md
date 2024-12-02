@@ -48,47 +48,33 @@ A: The journey from A1 to A5 was enlightening. Starting with basic concepts, I p
 
 Q: Identify your own level at the beginning of this course and where you ended:
 
-A:
+A: At the beginnign of the course my level of knowledge about BIM was confined in the tasks I could do in Revit files and extrapolating data from there, I didn't know anything about coding nor IFC files. In the end my knowledge about BIM growth in both theory and prectice: handling IFC files without a graphical interface was though at the beginning but made me realize how many more things we can do with those files.
 Level at Start
 Level at End
 
 Q: What else do you still need to learn?
 
-A:
+A: For sure my Python code skills can massively improve, as well as my understanding of the IFC workflow
 
 Q: How you might use OpenBIM in the future?
 
-A:
-
-## Your process of developing the tutorial
-
-Q: Did the process of the course enable you to answer or define questions that you might need later for thesis?
-
-A:
-
-Q: Would you have preferred to have been given less choice in the use cases?
-
-A:
-
-Q: Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
-
-A:
+A: Automizing structural calculation and feedbacks between drawing and spreadsheets
 
 ## (Individual) Your future for Advanced use of OpenBIM
 
 Q: Are you likely to use OpenBIM tools in your thesis?
 
-A:
+A: I still have no idea in which field will be my thesis so it's hard to tell. But I wouldn't exclude use the kwnowledge got in this course if they come to be usefull
 
 Q: Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
 
-A:
+A: I think OpenBIM tools will be an essencial part of my professional future
 
 ## (Individual) Wrap up
 
 Q: conclude the journey through A1-A5
 
-A:
+A: When I started this course I was afraid for my poor skills in coding, but surprisengly I discoverded how helpfull and fun can create tools that help in so many different tasks, especially related to the building area. The deep learning started immediatly in the first three assignments where the code learning reached his peak, later on other skills where more involved, as communicating skills as well as understanding things in other ways to express them better to others. I think that the multiple check and reports helped me in the way of growing my knowledge.
 
 # Reflection Janik Rosien (s243382)
 
