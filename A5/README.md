@@ -141,7 +141,7 @@ A:
 
 Q: Did the tool address the use case you identified?
 
-A: Yes, the tool effectively addressed the use case we identified. Our focus was on analyzing the volumes of columns using Python and IfcOpenShell and was later expanded to analyse the volumes of different IFC elements such as walls, columns, and slabs. Feedback from our peers highlighted that the tool was practical and aligned well with real-world needs, particularly for tasks requiring precise volume calculations. The method of extracting geometry and calculating volumes based on vertices was well-received, with some suggestions to refine the user interface or expand its capabilities for more complex elements. In the future we could include an excel export to gain the raw data. Overall, the tool met its intended purpose and demonstrated its potential for broader applications.
+A: Yes, the tool addressed the identified use case effectively. Our tutorial on using the create.geom function demonstrated a method to calculate volumes for elements lacking volume attributes, like beams, columns, slabs. Feedback confirmed that this approach was innovative and filled a practical gap, especially for later stages of the building process where such attributes may be absent. While the method worked well for standard geometries, there was constructive feedback on potential inaccuracies for non-orthogonal objects and the need for additional outputs (e.g., combining Global IDs with volumes) to enhance usability in broader workflows. Overall, the tool aligned well with the intended purpose and was positively received.
 
 
 
