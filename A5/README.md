@@ -80,47 +80,46 @@ A: When I started this course I was afraid for my poor skills in coding, but sur
 
 Q: Identify your own level at the beginning of this course and where you ended:
 
-A:
-Level at Start
-Level at End
+A: At the beginning of the course I had near to zero knowledge regarding OpenBIM and coding in general. The whole topic of analyzing IFC-files and making tools, in order to get and use information from these Files was very new to me, but very interesting.
+By the End i had developed a basic understanding on coding, which allowed me to understand and follow scripts and even develop a tool together with my group.
 
 Q: What else do you still need to learn?
 
-A:
+A: I still need to improve my coding skills, in order to develop better tools and be able to express my ideas in code. The whole part of linking real life workflows and IFC-files with OpenBIM is very interesting and I would like to develop my skill set in that regard.
 
 Q: How you might use OpenBIM in the future?
 
-A:
+A: I hope to use OpenBIM in a lot of projects, no matter if it is here at DTU or later at work. I think it ist very usefull, when it comes to improve the workflow on the building site, safe money and recources and in the very end beeing able to improve the carbon-footprint of the building sector.
 
 ## Your process of developing the tutorial
 
 Q: Did the process of the course enable you to answer or define questions that you might need later for thesis?
 
-A:
+A: It definetily helped me get a better understanding of coding and OpenBIM, but I have not thought about topics for my thesis yet. I guess it will be usefull for later work.
 
 Q: Would you have preferred to have been given less choice in the use cases?
 
-A:
+A: No, the range of use cases was valuable as it allowed flexibility to focus on areas of personal or professional interest. Having options to explore both geometry analysis and volume calculations enabled me to tailor the learning experience to my goals.
 
 Q: Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 
-A:
+A:The number of tools was appropriate. Tools like IfcOpenShell, Python, and Blender offered a solid foundation for OpenBIM workflows. I wouldn’t recommend removing any, but adding more advanced tools, such as Dynamo or Revit integrations, could further enhance practical application in industry settings.
 
 ## (Individual) Your future for Advanced use of OpenBIM
 
 Q: Are you likely to use OpenBIM tools in your thesis?
 
-A:
+A: I have not thought about a topic for my thesis yet. But I think my understanding is a bit to low, in order to use OpenBIM in my thesis. But I am open to it and if it will help me writing my thesis I will definetely use OpenBIM.
 
 Q: Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
 
-A:
+A: The building sector is developing very fast and OpenBIM is beeing used already. So I think there is no way aound using OpbenBIM in 10 years and I am open for changes, to develop a better future.
 
 ## (Individual) Wrap up
 
 Q: conclude the journey through A1-A5
 
-A:
+A: The journey from A1 to A5 was very interesting and teaching. I started with almost no knowledge on the topic. It started with the basic concept being tought, which lead me to develop skills on working with OpenBIM, coding and IFC-files. I learned a lot of new stuff during the course, for example the concept of BPMN-diagramms. In the later task wo developed a own tool, which was very interesting and helped me understand the concepts very well and I also liked, that we developed a tutorial for the people who take the couse next year. 
 
 
 # (As a group) summary of the feedback you received on your tutorial
